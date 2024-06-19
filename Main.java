@@ -26,7 +26,17 @@ public class Main {
        }else if(a == 5){
            System.out.println(x5);
        }
-
+        if(b == 1){
+            System.out.println(x1);
+        }else if(b == 2){
+            System.out.println(x2);
+        }else if(b == 3){
+            System.out.println(x3);
+        }else if(b == 4){
+            System.out.println(x4);
+        }else if(b == 5){
+            System.out.println(x5);
+        }
     }
     }
 
