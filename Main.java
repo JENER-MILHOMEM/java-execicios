@@ -11,32 +11,35 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("escolha algo do cardapio? ");
         double a = sc.nextDouble();
-        System.out.println("quer algo mais? ");
+        System.out.println("quer algo mais?, se não só aperte digite 0 ");
         double b = sc.nextDouble();
+        double escolha1 = 0;
+        double escolha2 = 0;
 
-
-       if(a == 1){
-           System.out.println(x1 );
-       }else if(a == 2){
-           System.out.println(x2 );
-       }else if(a == 3){
-           System.out.println(x3);
-       }else if(a == 4){
-           System.out.println(x4);
-       }else if(a == 5){
-           System.out.println(x5);
-       }
-        if(b == 1){
-            System.out.println(x1);
-        }else if(b == 2){
-            System.out.println(x2);
-        }else if(b == 3){
-            System.out.println(x3);
-        }else if(b == 4){
-            System.out.println(x4);
-        }else if(b == 5){
-            System.out.println(x5);
+        if (a == 1 && b == 1) {
+            escolha1 = x1;
+             escolha2 = x1;
         }
+        if (a == 2) {
+            escolha1 = x2;
+             escolha2 = x2;
+        }
+        if (a == 3) {
+             escolha1 = x3;
+             escolha2 = x3;
+        }
+        if (a == 4) {
+             escolha1 = x4;
+             escolha2 = x4;
+        }
+        if (a == 5) {
+             escolha1 = x5;
+             escolha2 = x5;
+        }
+
+        System.out.println(escolha1 + escolha2);
+
+
     }
-    }
+}
 
